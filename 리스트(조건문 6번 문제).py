@@ -1,4 +1,4 @@
-import random
+import random 
 
 numbers = []
 for num in range(1, 21) :
