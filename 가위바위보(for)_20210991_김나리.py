@@ -6,7 +6,7 @@ mescore = 0
 print("컴퓨터와 하는 가위바위보 게임입니다.")
 
 for i in range(0, 10, 1):
-    a = input("가위바위보 입력: ")
+    a = input("'가위', '바위', '보' 중 입력: ")
     
     com = random.randint(1, 3)
     if com == 1 :
@@ -23,12 +23,13 @@ for i in range(0, 10, 1):
         
 
     if (a == com):
-            print("비겼습니다")
+            print("비겼습니다 \n")
+            
     elif (a == '가위' and com == '보') or (a == '바위' and com == '가위') or (a == '보' and com == '바위'):
-            print("이겼습니다")
+            print("이겼습니다 \n")
             mescore = mescore + 1
     else:
-            print("졌습니다")
+            print("졌습니다 \n")
             comscore = comscore + 1
 
     if (mescore == 2) or (comscore == 2):

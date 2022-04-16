@@ -1,0 +1,5 @@
+import re
+ss = input("문자열을 입력하세요: ")
+
+word = re.compile(r'[0-9\\+]', "", ss)
+print(word)
