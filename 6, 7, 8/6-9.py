@@ -1,7 +1,10 @@
 hap=0
-i=0
+
 for i in range(3333, 10000):
-    if i%1234==0:
-        hap = hap + i
+    if not i%1234==0:
+        continue
+
+    else:
+        hap += i
 
 print(hap)
