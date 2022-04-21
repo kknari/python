@@ -14,8 +14,7 @@ if __name__ == "__main__":
         starstr = ""
         for k in range(0, starnum*2):
             starstr += "\u2605"
-            k += 1
-
+            
         print(starstr)
 
         i += 1

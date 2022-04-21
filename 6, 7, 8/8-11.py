@@ -14,7 +14,6 @@ for i in ss:
         result += i
     elif ord('a') <= ord(i) <= ord('z'):
         result += i
-    else:
-        del(i)
+
 
 print(result)
